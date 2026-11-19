@@ -1,0 +1,12 @@
+[package]
+name = "nonprofit-balance-guard"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "nonprofit_balance_guard"
+path = "src/nonprofit_service.rs"
+
+[[bin]]
+name = "balance-guard"
+path = "src/main.rs"
